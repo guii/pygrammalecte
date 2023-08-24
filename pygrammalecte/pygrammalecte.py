@@ -155,6 +155,7 @@ def _run_grammalecte(filepath: str) -> subprocess.CompletedProcess:
             filepath,
             "-off",
             "apos",
+            "poncfin",
             "--json",
             "--only_when_errors",
         ],
